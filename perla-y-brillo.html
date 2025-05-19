@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perla y Brillo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #fff0f5, #ffe4e1);
+      color: #333;
+    }
+
+    header {
+      background-color: #d87093;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #f8bbd0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 30px;
+    }
+
+    .producto {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s;
+    }
+
+    .producto:hover {
+      transform: scale(1.03);
+    }
+
+    .producto img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .producto h3 {
+      margin: 10px 0 5px;
+      color: #d87093;
+    }
+
+    .producto p {
+      margin: 0;
+      font-size: 1.1em;
+      color: #444;
+    }
+
+    footer {
+      background-color: #d87093;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Perla y Brillo</h1>
+    <p>Accesorios que enamoran</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Catálogo</a>
+    <a href="#">Ofertas</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <main>
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1618354691414-cbbefb3fae5e?auto=format&fit=crop&w=600&q=80" alt="Collar de perlas">
+      <h3>Collar Perla Rosa</h3>
+      <p>$2.500</p>
+    </div>
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1622434641405-1dc99c97c89f?auto=format&fit=crop&w=600&q=80" alt="Pulsera dorada">
+      <h3>Pulsera Dorada Glam</h3>
+      <p>$1.800</p>
+    </div>
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1622495533620-2b80dcf4b6f7?auto=format&fit=crop&w=600&q=80" alt="Aros colgantes">
+      <h3>Aros Cristal Estelar</h3>
+      <p>$2.200</p>
+    </div>
+    <div class="producto">
+      <img src="https://images.unsplash.com/photo-1580894732444-2460ce3c403e?auto=format&fit=crop&w=600&q=80" alt="Set de anillos">
+      <h3>Set de Anillos Vintage</h3>
+      <p>$3.000</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Perla y Brillo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
